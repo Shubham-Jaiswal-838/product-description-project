@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4em;
+}
+
+.Product {
+  border: 4px solid #444;
+  width: 70%;
+  margin: 25px auto;
+  height: auto;
+  position: relative;
+}
+.header {
+  text-align: center;
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin: 0;
+  padding: 8px;
+}
+.price {
+  font-size: 22px;
+  font-weight: bolder;
+  line-height: 1.3em;
+}
+.shipping {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 2em;
+}
+.extra-info a:link {
+  color: black;
+  line-height: 2em;
+}
+.extra-info a:link:hover {
+  text-decoration: none;
+}
+/* .product-details {
+ margin: 1em 0;
+
+} */
+.pd-details {
+  list-style: square;
+  list-style-position: inside;
+  margin: 10px;
+  position: relative;
+}
+.button {
+  border: none;
+  border-top: 5px solid #444;
+  /* border-bottom: none;
+  border-left: none;
+  border-right: none; */
+  background-color: #444;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bolder;
+  letter-spacing: 5px;
+}
+.button:hover {
+  color: black;
+  background-color: white;
+}
+.footer-button {
+  position: absolute;
+  right: 0;
+  top: 44px;
+  cursor: pointer;
+}
+/* .overlap {
+  position: relative;
+
+}
+img {
+  position: relative;
+  z-index: 1
+}
+.price {
+  position: absolute;
+  bottom:5px;
+ left: 176px;
+ color: white;
+ z-index: 2
+
+} */
+.sale {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  padding: 5px;
+  letter-spacing: 0.1em;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.colors {
+  /* background-color: rgb(119, 20, 36); */
+  /* border: 1px solid green; */
+  margin: 10px 0;
+}
+.color-1 {
+  background-color: rgb(10, 10, 9);
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  display: inline-block;
+}
+.color-2 {
+  background-color: rgb(37, 105, 145);
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(37, 105, 145);
+  display: inline-block;
+  margin: 0 7px;
+}
+.color-3 {
+  background-color: rgb(201, 18, 18);
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(201, 18, 18);
+  display: inline-block;
+  margin: 0 7px;
+}
+.color-4 {
+  background-color: rgb(198, 201, 18);
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(198, 201, 18);
+  display: inline-block;
+  margin: 0 7px;
+}
+.color-5 {
+  background-color: rgb(47, 201, 60);
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(47, 201, 60);
+  display: inline-block;
+  margin: 0 7px;
+}
+.color-6 {
+  background-color: rgb(72, 38, 41);
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(72, 38, 41);
+  display: inline-block;
+  margin: 0 0 0 7px;
+}
